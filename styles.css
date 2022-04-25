@@ -107,6 +107,9 @@ body {
   height: 365px;
   background-color: #DBF1FF;
   border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .vs-big{
@@ -122,3 +125,12 @@ body {
 .button-reset{
   margin-left: 101px;
 }
+
+.move-image{
+  width: 70%;  
+}
+
+.field-p2 img{
+  transform: scaleX(-1);
+}
+
